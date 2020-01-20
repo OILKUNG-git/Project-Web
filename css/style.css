@@ -1,0 +1,154 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+body{
+		background-image: linear-gradient(0deg, rgba(0,224,255,1) 0%, rgba(0,11,42,1) 100%);
+		height:82vh;
+}
+h1{
+	color:white;
+	margin-top:9%;
+	font-size:100px;
+	font-family: TH SarabunPSK;
+	text-shadow: 0px 0px 10px black;
+}
+h2{
+	margin-bottom:3%;
+	font-size:50px;
+	font-family: TH SarabunPSK;
+	text-shadow: 0px 0px 10px white;
+}
+from{
+    width : 700px;
+    margin : 15px auto;
+    text-align: left;
+    padding:20px;
+    border : 1px solid #bbbbbb;
+    border-radius: 5px;
+}
+.input-group{
+    font-family: inherit;
+    margin: 15px;
+}
+.input-group label{
+	text-align :center;
+    display : block;
+    margin: 10px 0px 0px 0px;
+    font-size: 25px;
+    color: black;
+}
+.input-group input{
+	margin-bottom:20px;
+    height: 35px;
+    width: 60%;
+    padding :5px 20px 5px 5px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border : 2px solid gray;
+	box-shadow: 0px 0px 15px gray	
+    
+}
+button{
+	font-family: TH SarabunPSK;
+	font-weight : bold;
+	border: none;
+	float:right;
+	margin-top : -154px;
+	border-radius :12px;
+	margin-right:15px;
+	font-size : 30px;
+	padding:40px;
+	color:white;
+	cursor: pointer;
+	background-color:#003fa3;
+}
+button:hover{
+    border: none;
+    background-color:#002c73;
+    color:white;
+}
+.btn{
+	font-family: TH SarabunPSK;
+    padding : 20px;
+	margin-left:41%;
+	text-align:center;
+	width:15%;
+    border: none;
+    border-radius:12px;
+    cursor: pointer;
+	text-shadow: 0px 0px 10px black;
+	border:3px solid black;
+}
+.btn:hover{
+	background-color:#002c73;
+	box-shadow: 0px 0px 30px white;
+}
+.btn a{
+	
+	color: white;
+	text-decoration:none;
+	font-size:70px;
+}
+.btnlo{
+		text-decoration: none;
+		font-size: 20px;
+		padding-left:30px;
+		margin: 0px 0px 10px 0px;
+		margin-top : -20px;
+		color:black;
+}
+.btnlo a{
+	text-shadow: 0px 0px 10px black;
+	border-radius: 12px ;
+	text-decoration: none;
+	padding: 10px 10px;
+}
+.lightbox{
+    visibility : hidden;
+    opacity: 0;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(72,73,74,0.5);
+    height: 100%;
+    width: 100%;
+}
+.lightbox:target{
+    visibility: visible;
+    opacity: 1;
+}
+#outer{
+    border-radius: 30px;
+    background-color: white;
+    width: 600px;
+    box-shadow:  0px 0px 35px black;
+    padding: 1rem;
+    font-size: 24px;
+    color : gray;
+    margin: auto;
+    margin-top: 16%;
+}
+.lightbox a{
+    text-decoration: none;
+    color : gray;
+}
+#title{
+    font-size: 22px;
+    height: 25px;
+}
+.close{
+    width: 25px;
+    height: 25px;
+    float: right;
+	margin-right:5px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+    transform: rotate(45deg);
+    cursor : pointer;
+}
